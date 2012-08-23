@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 
 gem 'rails', '3.2.7'
 
@@ -8,11 +8,12 @@ gem 'rails', '3.2.7'
 gem 'sqlite3'
 
 group :development do
-	gem 'rspec-rails', '2.4.0'
+	gem 'rspec-rails'
+	gem 'annotate'
 end
 	
 group :test do
-	gem 'rspec', '2.4.0'
+	gem 'rspec'
 	gem 'webrat', '0.7.1'
 end
 
